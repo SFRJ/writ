@@ -1,8 +1,9 @@
 package com.writ.domain.services.knowledge;
 
 import com.writ.domain.core.KnowledgeProvider;
+import com.writ.domain.services.HexagonalArchitectureService;
 
-public interface KnowledgeProviderManager {
+public interface KnowledgeProviderManager extends HexagonalArchitectureService{
 
     public boolean add(KnowledgeProvider knowledgeProvider);
 

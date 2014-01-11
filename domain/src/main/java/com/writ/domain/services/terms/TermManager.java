@@ -2,10 +2,11 @@ package com.writ.domain.services.terms;
 
 
 import com.writ.domain.core.Term;
+import com.writ.domain.services.HexagonalArchitectureService;
 
 import java.util.List;
 
-public interface TermManager {
+public interface TermManager extends HexagonalArchitectureService {
 
     public boolean add(Term term);
 
